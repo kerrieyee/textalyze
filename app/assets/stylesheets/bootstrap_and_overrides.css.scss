@@ -1,16 +1,18 @@
 @import "bootstrap";
 
 body { 	padding-top: 60px;
-				background-color: #0E4068
+				background-color: rgb(33, 73, 105)
 			}
 
 @import "bootstrap-responsive";
 
 .navbar .brand{ margin-left: 20px;
 								font-weight: 200;
-								color: #2361A3}
+								color: rgb(194, 206, 219);
+								text-shadow: 0px 0px 0px white
+								}
 
-.navbar-inner {	background-color: #96CCF1;
+.navbar-inner {	background-color: rgb(86, 138, 173);
   							background-image: none
 							}
 
@@ -34,11 +36,14 @@ body { 	padding-top: 60px;
 					margin-bottom: 30px 
 				}
 
-h2{ font-size: 20px }
+h1 {color: rgb(213, 207, 207);}
+h2{ font-size: 20px;
+		color: rgb(213, 207, 207); }
 
 .white{ background-color: white}
 
-.table{ background-color: #A1CBE7 }
+.table{ background-color: rgb(143, 183, 209);
+				color: black; }
 
 .column1{ width: 30%}
 
